@@ -8,7 +8,7 @@ pois o comportamento esperado de um retângulo é diferente do comportamento esp
 Por exemplo, se tentarmos definir a largura e a altura de um objeto Square de forma independente, 
 o resultado será inconsistente.
 */ 
-public class Square implements ShapeInterface {
+public class Square extends ShapeInterface {
     @Override
     public void setWidth(int width) {
         this.width = width;
